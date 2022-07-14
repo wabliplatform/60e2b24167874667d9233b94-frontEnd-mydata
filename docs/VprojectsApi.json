@@ -1,0 +1,73 @@
+
+[{
+    "methodType":"POST",
+    "methodName":"createvprojects",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Vprojects"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiVprojectsApi = new TempApi.VprojectsApi();",
+    "importModelParameter":["let vprojects = new TempApi.Vprojects();"],
+    "modelNames":["vprojects"],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiVprojectsApi.createvprojects( vprojects, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"DELETE",
+    "methodName":"deletevprojects",
+    "returnType":{
+
+      "primitive":"true",
+      "type":"null"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiVprojectsApi = new TempApi.VprojectsApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiVprojectsApi.deletevprojects( vprojectsId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');/**nextFunction*/}});"
+  },{
+    "methodType":"GETALL",
+    "methodName":"getAllvprojects",
+    "returnType":{
+      "primitive":false,
+      "jsType":"Array",
+      "modelName":"[Vprojects]"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiVprojectsApi = new TempApi.VprojectsApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiVprojectsApi.getAllvprojects((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"GET",
+    "methodName":"getvprojects",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Vprojects"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiVprojectsApi = new TempApi.VprojectsApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiVprojectsApi.getvprojects( vprojectsId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"PUT",
+    "methodName":"updatevprojects",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"Vprojects"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiVprojectsApi = new TempApi.VprojectsApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiVprojectsApi.updatevprojects( vprojectsId, opts, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  }
+]
