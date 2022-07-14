@@ -22,6 +22,8 @@ class ExpressServer {
       this.app.get('/', (req, res) => res.sendFile(path.join(__dirname,'html','home.html')));
 			this.app.get('/home', (req, res) => res.sendFile(path.join(__dirname,'html','home.html')));
 			this.app.get('/home/:id', (req, res) => res.sendFile(path.join(__dirname,'html','home.html')));
+			this.app.get('/cproject', (req, res) => res.sendFile(path.join(__dirname,'html','cproject.html')));
+			this.app.get('/cproject/:id', (req, res) => res.sendFile(path.join(__dirname,'html','cproject.html')));
 			
     }
   
